@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120" fill="none">
+  <defs>
+    <linearGradient id="hl-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="80" cy="60" r="45" fill="#FEF08A" fill-opacity="0.08" />
+
+  <!-- Sheet of Paper -->
+  <rect x="35" y="25" width="70" height="75" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+  
+  <!-- Highlighted Text Strokes -->
+  <rect x="45" y="38" width="50" height="8" rx="2" fill="#FEF08A" fill-opacity="0.25" />
+  <line x1="47" y1="42" x2="93" y2="42" stroke="#FEF08A" stroke-width="2" stroke-linecap="round" />
+
+  <rect x="45" y="52" width="38" height="8" rx="2" fill="#BBF7D0" fill-opacity="0.25" />
+  <line x1="47" y1="56" x2="81" y2="56" stroke="#BBF7D0" stroke-width="2" stroke-linecap="round" />
+
+  <rect x="45" y="66" width="45" height="8" rx="2" fill="#BAE6FD" fill-opacity="0.25" />
+  <line x1="47" y1="70" x2="88" y2="70" stroke="#BAE6FD" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Chiseled Highlighter Marker Pen -->
+  <g transform="translate(100, 40) rotate(-25)">
+    <!-- Body -->
+    <rect x="0" y="10" width="16" height="38" rx="3" fill="url(#hl-body)" />
+    <!-- Cap Rim -->
+    <rect x="-1" y="24" width="18" height="4" rx="1" fill="#1E293B" />
+    <!-- Chisel Tip -->
+    <polygon points="2,10 14,10 12,0 4,2" fill="#FEF08A" />
+  </g>
+</svg>

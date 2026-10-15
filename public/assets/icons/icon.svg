@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="acitya-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+    <linearGradient id="acitya-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#E0E7FF" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base with Soft Drop Shadow -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#acitya-bg)" />
+  <rect x="8" y="8" width="112" height="112" rx="28" stroke="url(#acitya-stroke)" stroke-width="1.5" />
+
+  <!-- Modern Acitya Monogram 'A' + Open Book Silhouette -->
+  <!-- Left Wing / Stem -->
+  <path d="M64 24 L34 94 L48 94 L64 54 Z" fill="#FFFFFF" fill-opacity="0.95" />
+  
+  <!-- Right Wing / Stem -->
+  <path d="M64 24 L94 94 L80 94 L64 54 Z" fill="#FFFFFF" fill-opacity="0.95" />
+
+  <!-- Horizontal Crossbar / Turning Page Ribbon -->
+  <path d="M44 72 Q64 64 84 72 Q64 78 44 72 Z" fill="#F8FAFC" />
+
+  <!-- Radiant Diamond Spark of Insight (AI / Knowledge) -->
+  <path d="M64 36 L67.5 45 L76.5 48.5 L67.5 52 L64 61 L60.5 52 L51.5 48.5 L60.5 45 Z" fill="#FACC15" filter="url(#glow)" />
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560" width="1400" height="560" fill="none">
+  <defs>
+    <linearGradient id="marq-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="30%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="marq-brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="560" fill="url(#marq-bg)" />
+
+  <!-- Ambient Light Core -->
+  <circle cx="700" cy="220" r="280" fill="#6366F1" fill-opacity="0.14" />
+  <circle cx="1100" cy="380" r="240" fill="#D946EF" fill-opacity="0.1" />
+
+  <!-- Center Content -->
+  <!-- Logo Mark -->
+  <g transform="translate(655, 60)">
+    <rect width="90" height="90" rx="26" fill="url(#marq-brand)" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="2" />
+    <path d="M45 22 L22 70 L34 70 L45 42 Z" fill="#FFFFFF" />
+    <path d="M45 22 L68 70 L56 70 L45 42 Z" fill="#FFFFFF" />
+    <path d="M31 54 Q45 49 59 54 Q45 58 31 54 Z" fill="#F8FAFC" />
+    <path d="M45 30 L48 36 L55 38.5 L48 41 L45 47 L42 41 L35 38.5 L42 36 Z" fill="#FACC15" />
+  </g>
+
+  <!-- Title & Tagline -->
+  <text x="700" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="52" font-weight="900" text-anchor="middle" fill="#FFFFFF" letter-spacing="-0.03em">Acitya Notes</text>
+  <text x="700" y="238" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#818CF8" letter-spacing="0.12em">YOUR SECOND BRAIN FOR WEB, PDF &amp; YOUTUBE</text>
+
+  <text x="700" y="282" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="#94A3B8">
+    Privacy-first knowledge management with W3C web highlighting, two-way video notes, and on-device AI.
+  </text>
+
+  <!-- 4 Feature Cards Grid -->
+  <g transform="translate(170, 340)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="240" height="130" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <text x="20" y="38" font-size="22">📝</text>
+    <text x="20" y="70" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Web Clipper</text>
+    <text x="20" y="96" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">Markdown, Obsidian YAML front matter &amp; autosave.</text>
+
+    <!-- Card 2 -->
+    <rect x="270" y="0" width="240" height="130" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <text x="290" y="38" font-size="22">🖍</text>
+    <text x="290" y="70" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">W3C Highlighter</text>
+    <text x="290" y="96" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">Shadow DOM toolbar with context quote re-anchoring.</text>
+
+    <!-- Card 3 -->
+    <rect x="540" y="0" width="240" height="130" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <text x="560" y="38" font-size="22">📺</text>
+    <text x="560" y="70" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Video Notetaker</text>
+    <text x="560" y="96" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">Two-way timestamps, reaction offset &amp; frame capture.</text>
+
+    <!-- Card 4 -->
+    <rect x="810" y="0" width="240" height="130" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <text x="830" y="38" font-size="22">🤖</text>
+    <text x="830" y="70" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Grounded AI</text>
+    <text x="830" y="96" font-family="-apple-system, sans-serif" font-size="12" fill="#94A3B8">Gemini Nano on-device summaries &amp; flashcards.</text>
+  </g>
+</svg>

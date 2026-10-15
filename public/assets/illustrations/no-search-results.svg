@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120" fill="none">
+  <defs>
+    <linearGradient id="search-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="80" cy="55" r="42" fill="#38BDF8" fill-opacity="0.08" />
+
+  <!-- Background Document Outline -->
+  <rect x="45" y="24" width="46" height="60" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+  <line x1="55" y1="36" x2="75" y2="36" stroke="#475569" stroke-width="2" stroke-linecap="round" />
+  <line x1="55" y1="44" x2="81" y2="44" stroke="#475569" stroke-width="2" stroke-linecap="round" />
+  <line x1="55" y1="52" x2="71" y2="52" stroke="#475569" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Magnifying Glass with Glass Reflection -->
+  <circle cx="92" cy="62" r="24" fill="#0F172A" fill-opacity="0.85" stroke="url(#search-grad)" stroke-width="3" />
+  <path d="M78 52 A 16 16 0 0 1 106 52" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Handle -->
+  <line x1="109" y1="79" x2="128" y2="98" stroke="url(#search-grad)" stroke-width="4.5" stroke-linecap="round" />
+
+  <!-- Gentle Query Question Mark -->
+  <text x="87" y="70" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#94A3B8">?</text>
+</svg>

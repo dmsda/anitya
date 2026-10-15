@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" fill="none">
+  <defs>
+    <linearGradient id="tile-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="tile-brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="440" height="280" fill="url(#tile-bg)" />
+
+  <!-- Ambient Glow Circles -->
+  <circle cx="220" cy="110" r="90" fill="#6366F1" fill-opacity="0.18" filter="blur(30px)" />
+  <circle cx="360" cy="200" r="70" fill="#D946EF" fill-opacity="0.12" filter="blur(30px)" />
+
+  <!-- Centered Logo Mark -->
+  <g transform="translate(186, 44)">
+    <rect width="68" height="68" rx="20" fill="url(#tile-brand)" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.5" />
+    <path d="M34 16 L18 52 L26 52 L34 32 Z" fill="#FFFFFF" />
+    <path d="M34 16 L50 52 L42 52 L34 32 Z" fill="#FFFFFF" />
+    <path d="M23 40 Q34 36 45 40 Q34 43 23 40 Z" fill="#F8FAFC" />
+    <path d="M34 22 L36 27 L41 29 L36 31 L34 36 L32 31 L27 29 L32 27 Z" fill="#FACC15" />
+  </g>
+
+  <!-- Typography -->
+  <text x="220" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="26" font-weight="800" text-anchor="middle" fill="#FFFFFF" letter-spacing="-0.02em">Acitya Notes</text>
+  <text x="220" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#818CF8" letter-spacing="0.08em">AI WEB &amp; VIDEO NOTETAKER</text>
+
+  <!-- Feature Pills -->
+  <g transform="translate(220, 215)">
+    <!-- Pill 1: Local-First -->
+    <rect x="-150" y="0" width="90" height="24" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="-105" y="15" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#34D399">🔒 Local-First</text>
+
+    <!-- Pill 2: YouTube Notes -->
+    <rect x="-48" y="0" width="96" height="24" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="0" y="15" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#F87171">📺 Video Notes</text>
+
+    <!-- Pill 3: W3C Highlighter -->
+    <rect x="60" y="0" width="90" height="24" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="105" y="15" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#FACC15">🖍 W3C Quote</text>
+  </g>
+</svg>

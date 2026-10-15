@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <defs>
+    <linearGradient id="logo-bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark -->
+  <g transform="translate(8, 8)">
+    <rect x="0" y="0" width="64" height="64" rx="18" fill="url(#logo-bg-dark)" />
+    <path d="M32 14 L17 50 L24 50 L32 30 Z" fill="#FFFFFF" fill-opacity="0.95" />
+    <path d="M32 14 L47 50 L40 50 L32 30 Z" fill="#FFFFFF" fill-opacity="0.95" />
+    <path d="M22 39 Q32 35 42 39 Q32 42 22 39 Z" fill="#F8FAFC" />
+    <path d="M32 20 L34 25 L39 27 L34 29 L32 34 L30 29 L25 27 L30 25 Z" fill="#FACC15" />
+  </g>
+
+  <!-- Wordmark Light for Dark Theme -->
+  <text x="86" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="800" letter-spacing="-0.03em" fill="#F8FAFC">Acitya</text>
+  <text x="88" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" letter-spacing="0.12em" fill="#818CF8">AI KNOWLEDGE NOTETAKER</text>
+</svg>

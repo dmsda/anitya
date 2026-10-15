@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120" fill="none">
+  <defs>
+    <linearGradient id="ai-core-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="80" cy="60" r="46" fill="#8B5CF6" fill-opacity="0.12" />
+
+  <!-- Orbital Rings -->
+  <ellipse cx="80" cy="60" rx="46" ry="18" stroke="#6366F1" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="4 4" transform="rotate(-25 80 60)" />
+  <ellipse cx="80" cy="60" rx="46" ry="18" stroke="#EC4899" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="4 4" transform="rotate(35 80 60)" />
+
+  <!-- Central Intelligence Core -->
+  <circle cx="80" cy="60" r="16" fill="url(#ai-core-grad)" />
+  <circle cx="80" cy="60" r="19" stroke="#A855F7" stroke-width="1" stroke-opacity="0.6" />
+
+  <!-- Radiant Diamond Spark -->
+  <path d="M80 49 L83 57 L91 60 L83 63 L80 71 L77 63 L69 60 L77 57 Z" fill="#FFFFFF" />
+
+  <!-- Satellite Nodes -->
+  <circle cx="44" cy="46" r="3.5" fill="#38BDF8" />
+  <circle cx="116" cy="74" r="3.5" fill="#FACC15" />
+  <circle cx="106" cy="38" r="3" fill="#A855F7" />
+  <circle cx="52" cy="80" r="2.5" fill="#34D399" />
+</svg>

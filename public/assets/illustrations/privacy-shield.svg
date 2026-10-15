@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="160" height="120" fill="none">
+  <defs>
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="80" cy="58" r="44" fill="#6366F1" fill-opacity="0.1" />
+
+  <!-- Outer Security Shield -->
+  <path d="M80 20 L44 34 L44 64 C44 86 60 102 80 108 C100 102 116 86 116 64 L116 34 Z" fill="#1E293B" stroke="url(#shield-grad)" stroke-width="2.5" />
+
+  <!-- Inner Padlock -->
+  <!-- Shackle -->
+  <path d="M70 54 L70 46 C70 40.5 74.5 36 80 36 C85.5 36 90 40.5 90 46 L90 54" stroke="#FACC15" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Lock Body -->
+  <rect x="64" y="52" width="32" height="26" rx="6" fill="#FACC15" />
+  
+  <!-- Keyhole -->
+  <circle cx="80" cy="63" r="3" fill="#0F172A" />
+  <path d="M79 63 L81 63 L82 71 L78 71 Z" fill="#0F172A" />
+
+  <!-- Sparkles -->
+  <circle cx="48" cy="28" r="2" fill="#38BDF8" />
+  <circle cx="114" cy="30" r="1.5" fill="#38BDF8" />
+</svg>
